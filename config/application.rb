@@ -16,7 +16,7 @@ module DecksBlog
     # Common ones are `templates`, `generators`, or `middleware`, for example.
     config.autoload_lib(ignore: %w(assets tasks))
 
-    config.i18n.default_locale = 'pt_BR'
+    config.i18n.default_locale = 'pt-BR'
     config.time_zone = 'Brasilia'
 
     # Configuration for the application, engines, and railties goes here.
